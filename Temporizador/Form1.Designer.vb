@@ -92,6 +92,7 @@ Partial Class Form1
         '
         'NudSegundos
         '
+        Me.NudSegundos.BackColor = System.Drawing.SystemColors.Control
         Me.NudSegundos.Font = New System.Drawing.Font("Ubuntu", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NudSegundos.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.NudSegundos.Location = New System.Drawing.Point(452, 19)
@@ -102,6 +103,7 @@ Partial Class Form1
         '
         'NudMinutos
         '
+        Me.NudMinutos.BackColor = System.Drawing.SystemColors.Control
         Me.NudMinutos.Font = New System.Drawing.Font("Ubuntu", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NudMinutos.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.NudMinutos.Location = New System.Drawing.Point(262, 19)
@@ -112,6 +114,7 @@ Partial Class Form1
         '
         'NudHoras
         '
+        Me.NudHoras.BackColor = System.Drawing.SystemColors.Control
         Me.NudHoras.Font = New System.Drawing.Font("Ubuntu", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NudHoras.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.NudHoras.Location = New System.Drawing.Point(84, 19)
